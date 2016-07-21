@@ -11,6 +11,8 @@ class Player(pygame.sprite.Sprite):
 		self.rect = self.image.get_rect()
 		self.rect.top = 235			# positioning of player on screen
 		self.rect.left = 180
+		self.jump = "stop"
+		self.jump_number = 0
 
 """	Used to more easily detect collision between character and other objects
 """
@@ -33,6 +35,24 @@ class Checkpoint(pygame.sprite.Sprite):
 	# update checkpoint location on the screen so that it appears to move closer to character
 	def update(self):
 		self.rect.left -= 8
+
+def jump_update(y, jump, number):
+	jump_speed = 10
+	if number == 1:
+		if jump == "up" and y < 50:
+			jump = "down"
+	elif number == 2:
+		if jump == "up" and y < -10:
+			jump = "down"
+	if jump == "down" and y >= 160:
+		jump = "stop"
+		y = 235
+		number = 0
+	if jump == "up":
+		y = y - jump_speed
+	elif jump == "down":
+		y = y + jump_speed
+	return(y, jump, number)
 
 def main():
 	pygame.init()
@@ -68,6 +88,12 @@ def main():
 			if event.type == pygame.QUIT:
 				pygame.quit()
 				sys.exit()
+			if event.type == pygame.KEYDOWN:
+				if character.jump != "up" or character.jump != "down":
+					if event.key == pygame.K_SPACE:
+						if character.jump_number < 2:
+							character.jump = "up"
+							character.jump_number += 1
 		
 		# if maxium boundary is reached, reset x postion to beginning of background image
 		if x > max_x:
@@ -87,6 +113,7 @@ def main():
 			else:
 				character.img_position = 0
 
+			character.rect.top, character.jump, character.jump_number = jump_update(character.rect.top, character.jump, character.jump_number)
 			character.image = pygame.image.load(character.img_list[character.img_position])
 
 			for check in checkpoint_group:
