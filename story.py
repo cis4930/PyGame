@@ -27,9 +27,9 @@ class PlayerRect(pygame.sprite.Sprite):
 class Checkpoint(pygame.sprite.Sprite):
 	def __init__(self):
 		pygame.sprite.Sprite.__init__(self)
-		self.image = pygame.image.load("img/flag.png")		# set desired image
+		self.image = pygame.image.load("img/shroom.png")		# set desired image
 		self.rect = self.image.get_rect()
-		self.rect.top = 250				# positioning of checkpoint on screen
+		self.rect.top = 285				# positioning of checkpoint on screen
 		self.rect.left = 480
 
 	# update checkpoint location on the screen so that it appears to move closer to character
