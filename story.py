@@ -64,7 +64,7 @@ def main():
 	background = pygame.image.load("img/swamp.png")		# load desired background image
 	back_rect = background.get_rect()
 	max_x = back_rect.right - 600						# bounds for background scrolling to create
-	backsurf = pygame.Surface((600, 400))				#  somewhat seamless infinite loop
+	backsurf = pygame.Surface((800, 600))				#  somewhat seamless infinite loop
 
 	x = 0			# initial x position for scrolling background
 
