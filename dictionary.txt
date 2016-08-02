@@ -4805,7 +4805,6 @@ bewitched
 bewitches
 bewitching
 beyond
-Bhagavad-Gita
 Bhutan
 Bialystok
 Bianco
@@ -20270,7 +20269,7 @@ Holzman
 Hom
 homage
 home
-home-brew
+homebrew
 homed
 homeless
 homely
@@ -20743,7 +20742,6 @@ hysterically
 Ian
 Iberia
 Iberian
-Ibero-
 ibex
 ibid
 ibis
@@ -24934,7 +24932,6 @@ luxurious
 luxuriously
 luxury
 Luzon
-L'vov
 Lydia
 lying
 Lykes
@@ -26680,8 +26677,6 @@ modifies
 modify
 modifying
 Modula
-Modula-2
-Modula-3
 modular
 modularity
 modularization
@@ -28257,7 +28252,6 @@ obliviousness
 oblong
 obnoxious
 oboe
-O'Brien
 obscene
 obscure
 obscured
@@ -28364,8 +28358,6 @@ Oceania
 oceanic
 oceanography
 oceans
-O'Connell
-O'Connor
 Oconomowoc
 octagon
 octagonal
@@ -28392,7 +28384,6 @@ oddly
 oddness
 odds
 ode
-O'Dell
 Oderberg
 Oderbergs
 odes
@@ -28402,13 +28393,11 @@ odious
 odiously
 odiousness
 odium
-O'Donnell
 odor
 odorous
 odorously
 odorousness
 odors
-O'Dwyer
 Odysseus
 Odyssey
 Oedipal
@@ -28463,7 +28452,6 @@ often
 oftentimes
 Ogden
 oh
-O'Hare
 Ohio
 ohm
 ohmmeter
@@ -28496,7 +28484,6 @@ Oldsmobile
 Olduvai
 oldy
 oleander
-O'Leary
 Oleg
 oleomargarine
 Olga
@@ -28548,7 +28535,6 @@ once
 oncology
 one
 Oneida
-O'Neill
 oneness
 onerous
 ones
@@ -28848,7 +28834,6 @@ oscillatory
 oscilloscope
 oscilloscopes
 Osgood
-O'Shea
 Oshkosh
 Osiris
 Oslo
@@ -28866,7 +28851,6 @@ ostracism
 Ostrander
 ostrich
 ostriches
-O'Sullivan
 Oswald
 Othello
 other
@@ -36705,7 +36689,6 @@ Serafin
 Serbia
 Serbian
 Serbians
-Serbo-
 serendipitous
 serendipity
 serene
@@ -37541,7 +37524,6 @@ sinned
 sinner
 sinners
 sinning
-Sino-
 sins
 sinuous
 sinus
@@ -43420,7 +43402,6 @@ Ursa
 Ursula
 Ursuline
 Uruguay
-Uruguay'a
 Uruguayan
 Uruguayans
 us
