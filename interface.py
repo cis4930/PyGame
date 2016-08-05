@@ -529,6 +529,8 @@ def main_two():
                 if pygame.sprite.spritecollideany(character_rect, checkpoint_group):
                     if smurf_state != "SPINNING":
                         screen.blit(checkpoint_reached_surf, (200,400))
+                        for check in checkpoint_group:
+                			checkpoint_group.remove(check)
                         seconds = 0 #die
                     else:
                         checkpoint_group.remove(npc)
